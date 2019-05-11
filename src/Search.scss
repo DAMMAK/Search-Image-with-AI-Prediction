@@ -1,0 +1,25 @@
+.search{
+
+  &__box{
+    width:70vh;
+    height: 40px;
+    border: 1px solid rgba($color: #b1e2b1, $alpha: 1.0);
+    font-size: 20px;
+    &:focus{
+      outline: none;
+    }
+  }
+
+  &__btn{
+    width:100px;
+    height: 46px;
+    font-size: 20px;
+    color: #fff;
+    background: #0b9922;
+    border: none;
+    border-radius: 5px;
+    margin-left: 3px;
+  }
+
+
+}
